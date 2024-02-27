@@ -1,0 +1,187 @@
+{
+	"en" : {
+  				"title": "New JSON Based Contents", 
+  				"subheader" : "subheading",
+  				"pageIcon"  : ":eyeglasses:",
+  				"date": "01/02/2024", 
+  				"topic": "Just stuff",
+  				"about" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+  				"reportUrl" : "https://www.thesite.com/reportdefects",
+  				"helpUrl" : "https://www.thesite.com/support",
+  				"initialSidebarState" : "expanded",
+  				"layout" : "wide",
+  				"Site" : {
+  							"version":"1.0.0",
+  							"Sidebar": {
+  								"title" : "Content",
+  								"Contents" : [
+  									{
+  										"txt" : "Lorem ipsum dolor sit amet, consectetur"
+  									},
+  									{
+  										"txt" : "Lorem ipsum dolor sit amet"
+  									},
+  									{
+  										"txt" : "Lorem ipsum dolor sit amet, consectetur adipiscing"
+  									}
+
+  								]
+  							},
+  							"Columns" : [
+  									{
+  										"id":"A",
+  										"title":"AA",
+  										"subheader":"AAA",
+  										"txt":"aaaaaaaaaa",
+  										"Containers":[
+  												{
+  														"id":"cola:001",
+  														"height":50,
+  														"border":true,
+  														"txt":"Lorem ipsum dolor sit amet, consectetur adipiscing",
+  														"resource":"001"
+  												},
+  												{
+  														"id":"cola:002",
+  														"height":50,
+  														"border":true,
+  														"txt":"Lorem ipsum dolor sit amet, consectetur adipiscing§"
+  												}
+  												
+  											],
+  										"Rows" : [
+  											{
+  												"id":"1",
+  												"title":"A1:Lorem ipsum ",
+  												"img":"https://static.streamlit.io/examples/cat.jpg",
+  												"txt" : "A1: Text",
+  												"Containers":[
+  													{
+  														"id":"a1:001",
+  														"height":50,
+  														"border":true,
+  														"txt":"a1:001 50 true txt",
+  														"canvas":"tempHion"
+  													},
+  													{
+  														"id":"a1:002",
+  														"height":50,
+  														"border":true,
+  														"txt":"a1:002 50 true txt",
+  														"canvas":"graph-x"
+
+  													}	
+  												]
+
+  											},
+  											{
+  												"id":"2",
+  												"title":"A2:Lorem ipsum dolor",
+  												"img":"https://static.streamlit.io/examples/dog.jpg",
+  												"txt" : "A2: Text"
+  											}
+  										]
+  									},
+  									{
+  										"id":"B",
+  										
+  										"subheader":"BBB",
+  										"txt":"bbbbbbbbbb",
+  										"img":"https://static.streamlit.io/examples/owl.jpg",
+  										"Rows" : [
+  											{
+  												"id":"1",
+  												"title":"sed do eiusmod tempor incididunt",
+  												"img":"https://static.streamlit.io/examples/owl.jpg",
+  												"txt" : "B1: Text"
+  											},
+  											{
+  												"id":"2",
+  												"title":"sed do eiusmod tempor incididunt ",
+  												"img":"https://static.streamlit.io/examples/dog.jpg",
+  												"txt" : "B2: Text"
+  											}
+  										]
+  									},
+  									{
+  										"id":"C",
+  										"title":"CC",
+  										"subheader":"CCC",
+  										
+  										"Rows" : [
+  											{
+  												"id":"1",
+  												"title":"Lorem ipsum dolor amet",
+  												"img":"https://static.streamlit.io/examples/cat.jpg",
+  												"txt" : "C1: Text"
+  											},
+  											{
+  												"id":"2",
+  												"title":"Lorem ipsum dolor consectetur",
+  												"img":"https://static.streamlit.io/examples/dog.jpg",
+  												"txt" : "C2: Text"
+  											}
+  										]
+  									}
+  								],
+  							"Containers" : [
+  									{
+  										"id":"1.0",
+  										"height":50,
+  										"border": true,
+  										"txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  										"canvas":"meteo"
+  									},
+  									{
+  										"id":"2.0",
+  										"height":50,
+  										"border": false,
+  										"txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Molestie at elementum eu facilisis sed odio morbi. Purus non enim praesent elementum facilisis leo.",
+  										"canvas":"graph-voltage"
+  									},
+  									{
+  										"id":"3.0",
+  										"height":50,
+  										"border": true,
+  										"txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec ultrices dui sapien eget. Amet est placerat in egestas erat imperdiet sed euismod. Tincidunt ornare massa eget egestas purus viverra. Felis bibendum ut tristique et egestas. Condimentum id venenatis a condimentum vitae sapien pellentesque habitant morbi. In cursus turpis massa tincidunt dui ut ornare lectus sit. Lacus sed turpis tincidunt id aliquet risus feugiat.",
+  										"canvas":"meteo"
+  									}
+  								]
+  						},
+  						"Resources" : {
+  								"DataSources":[
+  										{
+  											"id":"master-temphion"
+  											
+  										},
+  										{
+  											"id":"master-meteo"
+  										}	
+  									],
+  								"Canvas":[
+  										{
+  											"id":"tempHion",
+  											"handler":"default",
+  											"data-source":"master-temphion"
+  										},
+  										{
+  											"id":"meteo",
+  											"handler":"default",
+  											"data-source":"master-meteo"
+  										},
+  										{
+  											"id":"graph-voltage",
+  											"handler":"g_voltage",
+  											"data-source":"master-meteo"
+  										},
+  										{
+  											"id":"graph-x",
+  											"handler":"default_graph",
+  											"data-source":"master-meteo",
+  											"y":"Address"
+  										}
+  									
+  									]
+  						}
+  			}
+}
