@@ -1,0 +1,13 @@
+{
+        "JSON2StreamLit": {
+                "appName" : "example name",
+                "env": "dev",
+                "nextMode" : "off",
+                "Pages" : [
+                        {       
+                                "cfg" :"./resource/pages/example.page.no.1.json",
+                                "pageRefresh" : 5000
+                        }
+                ]
+        }
+}

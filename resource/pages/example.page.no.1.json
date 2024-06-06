@@ -1,0 +1,36 @@
+{
+  "en": {
+    "pageTitle": "Main Page",
+    "pageIcon": ":eyeglasses:",
+    "date": "27/02/2024",
+    "topic": "Example Page",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales sit amet ipsum eget pharetra.",
+    "reportUrl": "https://www.vanwalt.com",
+    "helpUrl": "https://www.vanwalt.com",
+    "initialSidebarState": "expanded",
+    "layout": "wide",
+    "css" : "./resources/css/style.css",
+    "title" : "Lorem ipsum dolor sit amet",
+    "bg-img" : "./resource/img/image.no.1.jpeg",
+    "hamburger" : true,
+    "Site": {
+      "version": "0.1",
+      "Columns": [
+        {
+          "id": "Col-Main-Canvas",
+          "Rows" : [
+            {
+              "Containers": [
+                {
+                  "id": "Col-Main-Canvas-Container-Main",
+                  "height" :300,
+                  "border": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

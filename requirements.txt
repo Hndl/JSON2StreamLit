@@ -1,2 +1,7 @@
 streamlit 
 plotly
+FilesConnection
+st_autorefresh
+numpy
+pandas
+pydeck
