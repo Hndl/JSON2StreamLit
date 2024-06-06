@@ -1,6 +1,6 @@
 streamlit 
 plotly
-st_autorefresh
+streamlit_autorefresh
 numpy
 pandas
 pydeck
