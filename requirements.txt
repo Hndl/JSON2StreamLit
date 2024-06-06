@@ -1,7 +1,8 @@
 streamlit 
 plotly
-FilesConnection
 st_autorefresh
 numpy
 pandas
 pydeck
+s3fs 
+st-files-connection
