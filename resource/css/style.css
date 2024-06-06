@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); 
+
+h1 {
+   font-family: 'Roboto', sans-serif; 
+   font-size: 50px;
+   font-weight: bolder;
+   text-align: center;
+   color: #091747;
+}
+
+html, body, [class*="css"] {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 21px;
+    font-weight: bold;
+    color: #091747;
+}
+
+img {
+  border-radius: 2%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: 10px;
+  margin-right: 0px;
+  width: 100%;
+  opacity: 1;
+  padding: 0px 0px 0px 100px;
+}
+
+/* remove the hamburger menu */
+.stApp [data-testid="stToolbar"]{
+    display:none;
+    padding-top: 0rem;
+}
+
+/* not sure if this is a random generated id, so it could change :(  */
+/* remove the top banner */
+.st-emotion-cache-uc1cuc { 
+    height : 0rem;
+ }
